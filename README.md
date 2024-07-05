@@ -20,6 +20,7 @@ ZeroBot-Plugin是由FloatTech为ZeroBot编写/募集的插件合集。
 
 # 特别鸣谢
 
+- [本手册封面](https://github.com/FloatTech/uwu)
 - [项目前身](https://github.com/BAKAi9514/9BotGensokyo)：9Bot 机器人研究手册
 - [LLOneBot 文档](https://llonebot.github.io/zh-CN/guide/getting-started)
 - [NapCatQQ 文档](https://napneko.github.io/zh-CN/guide/getting-started)
