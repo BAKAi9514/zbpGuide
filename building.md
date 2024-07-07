@@ -2,9 +2,13 @@
 
 > 得到一个搭载了 ZeroBot-Plugin 的 qq 机器人需要`连接QQ的东西`和`ZeroBot-Plugin本体`。
 
+!> **正式使用前，请再次检查是否已经将`连接QQ的东西`和`ZeroBot-Plugin本体`同时开启！**
+
 ## 连接QQ的东西
 
-现在是后 go-cqhttp 时代，比较流行的代替 gocq 的东西有`LLOneBot`和`NapCatQQ`之类。
+现在是后 go-cqhttp 时代，比较流行的代替 gocq 的东西有`LLOneBot`、`NapCatQQ`之类。
+
+!> 请注意，虽然本文介绍了 2 个`连接QQ`的东西，但是`连接QQ的东西`只用启动一个。
 
 ### LLOneBot
 
@@ -60,7 +64,7 @@ NTQQ 和 NapCat 都安装完成之后，打开 NapCat 的`config`目录，找到
 }
 ```
 
-（就是配置正向 ws 连接为`ws://127.0.0.1:6700`）
+*（就是配置正向 ws 连接为`ws://127.0.0.1:6700`）*
 
 为了以后开发/使用/排查问题方便，推荐再打开NapCat的`config`目录，找到名为`napcat_<你的QQ号>.json`的文件（如`napcat_1234567.json`），并改成以下配置。
 
@@ -76,7 +80,7 @@ NTQQ 和 NapCat 都安装完成之后，打开 NapCat 的`config`目录，找到
 }
 ```
 
-（就是将日志等级全部改为`debug`）
+*（就是将日志等级全部改为`debug`）*
 
 **勤看 [官方文档](https://napneko.github.io/zh-CN/guide/getting-started)！**
 **勤看 [官方文档](https://napneko.github.io/zh-CN/guide/getting-started)！**
@@ -150,3 +154,9 @@ GOOS=linux GOARCH=mips GOMIPS=softfloat CGO_ENABLED=0 go build -ldflags "-s -w" 
 5. 运行你编译出来的名为`zerobot`或`zerobot.exe`的文件。
 
 > 至此，zbp 安装完毕。`连接QQ的东西`和`ZeroBot-Plugin本体`同时运行就可以使用机器人啦~
+
+!> **正式使用前，请再次检查是否已经将`连接QQ的东西`和`ZeroBot-Plugin本体`同时开启！**
+
+!> **正式使用前，请再次检查是否已经将`连接QQ的东西`和`ZeroBot-Plugin本体`同时开启！**
+
+!> **正式使用前，请再次检查是否已经将`连接QQ的东西`和`ZeroBot-Plugin本体`同时开启！**
