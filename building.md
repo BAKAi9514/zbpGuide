@@ -14,15 +14,28 @@
 
 LLOneBot 支持到最新版本的 QQ。请避免使用 9.9.7(21804) 之前的版本，以免出现意料之外的问题。
 
-**更多问题或详细配置请参考 [官方文档](https://llonebot.github.io/zh-CN/guide/getting-started)，养成勤看文档少问问题的好习惯！**
+> **更多问题或详细配置请参考 [官方文档](https://llonebot.github.io/zh-CN/guide/getting-started)，养成勤看文档少问问题的好习惯！**
 
 #### Windows 安装
 
-找到 [项目下载地址](https://github.com/LLOneBot/LLOneBot/releases)，下载`LLOneBot.zip`双击运行即可，之后打开QQ的设置，看到了 LLOneBot 就代表安装成功了。
+!> 建议 Windows 用户直接使用一键安装包安装，下载地址：[https://github.com/super1207/install_llob/releases](https://github.com/super1207/install_llob/releases)
+
+**通用安装方法：**
+
+1. 安装 LiteLoaderQQNT。注意在安装之前请先关闭 QQ ！安装成功后打开QQ的设置，看到了 LiteLoaderQQNT 就代表安装成功了。
+- [点我前往一键安装脚本，支持 Windows、Linux、MacOS](https://github.com/Mzdyl/LiteLoaderQQNT_Install/releases)
+- [点我前往手动安装教程](https://liteloaderqqnt.github.io/guide/install.html)
+2. 找到 [项目下载地址](https://github.com/LLOneBot/LLOneBot/releases)，下载 LLOneBot 最新版本；解压放到`plugins`目录下，然后重启 QQ 即可。
+- `plugins`目录可以在 LiteLoaderQQNT 的页面找到并一键打开。
+3. 重启 QQ 后，打开设置看到 LLOneBot，代表安装成功。
 
 #### Linux 安装
 
-使用安装脚本安装 [LiteLoaderQQNT](https://github.com/Mzdyl/LiteLoaderQQNT_Install/releases) 或参考 [这个](https://github.com/LLOneBot/llonebot-docker) 安装 docker 版本。若你的 Linux 没有图形化界面或者你的 Linux 上的 QQ 出现各种问题，请使用下文将介绍的`NapCatQQ`。
+有两种选择：
+
+- [手动安装 LiteLoaderQQNT ](https://liteloaderqqnt.github.io/guide/install.html)后找到 [LLOneBot 最新版本](https://github.com/LLOneBot/LLOneBot/releases)并下载，解压放到`plugins`目录下，然后重启 QQ 即可。
+
+- 参考 [这个](https://github.com/LLOneBot/llonebot-docker) 安装 docker 版本。
 
 #### 启动前不可或缺的配置
 
@@ -42,7 +55,7 @@ LLOneBot 支持到最新版本的 QQ。请避免使用 9.9.7(21804) 之前的版
 
 ```shell
 sudo apt install libgbm1 libasound2
-sudo apt install ./这里是文件名.deb
+sudo dpkg -i ./这里是文件名.deb
 ```
 
 其次 [点击安装 NapCatQQ](https://github.com/NapNeko/NapCatQQ/releases) /或使用一键脚本`curl -o napcat.sh https://fastly.jsdelivr.net/gh/NapNeko/NapCat-Installer@master/script/install.sh && sudo bash napcat.sh`进行安装。（更多安装方式 [见](https://napneko.github.io/zh-CN/guide/getting-started#%E5%90%AF%E5%8A%A8)）
